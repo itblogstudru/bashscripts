@@ -6,7 +6,6 @@ echo "#    ver.0.1    #"
 echo "#################"
 echo "Hi!"
 while [ "$answer" != "f" ]
-
 do
 echo "What you need to do with MySQL?"
 echo "C|c - create db and/or user, D|d - delete db and/or user,";

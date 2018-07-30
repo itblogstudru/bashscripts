@@ -4,6 +4,7 @@ echo "#  MySQL_Import #"
 echo "# author: A.M.I #"
 echo "#    ver.0.1    #"
 echo "#################"
+
 echo "Enter where-db1:"
 read mydb
 echo "Enter whence-db2:"

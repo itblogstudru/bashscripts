@@ -4,7 +4,6 @@ echo "#   C_DB_U_P    #"
 echo "# author: A.M.I #"
 echo "#    ver.0.2    #"
 echo "#################"
-
 echo "What you need to do with user and/or db?";
 echo "Q|q - create db, W|w - create user,";
 echo "Z|z - create db and user";

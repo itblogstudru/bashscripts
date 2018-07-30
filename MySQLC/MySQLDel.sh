@@ -4,7 +4,6 @@ echo "#   Del_DB_U    #"
 echo "# author: A.M.I #"
 echo "#    ver.0.2    #"
 echo "#################"
-
 echo "What you need to do with user and/or db?";
 echo "P|p - delete db, O|o - delete user,";
 echo "X|x - delete db and user";
