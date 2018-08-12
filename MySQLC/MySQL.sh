@@ -10,6 +10,7 @@ do
 echo "What you need to do with MySQL?"
 echo "C|c - create db and/or user, D|d - delete db and/or user,";
 echo "E|e - dump db, I|i - import db,";
+echo "P|p - setup privileges,";
 echo "f - quit.";
 read answer
 	case  "$answer" in		
@@ -20,6 +21,8 @@ read answer
 					E|e) sh  ./MySQLDump.sh
 						 ;;
 					I|i) sh  ./MySQLImport.sh
+						 ;;
+					P|p) sh  ./MySQLPrivileges/MySQLP_C.sh
 						 ;;
 					f)	 echo "bye!"
 						 ;;
